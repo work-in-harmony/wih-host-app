@@ -3,13 +3,14 @@ import { getFirestore } from "firebase/firestore";
 import { getMessaging, getToken, onMessage  } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: 'AIzaSyAkoEma7pfnSLO80njh6Z4TKRv6wq8UPpk',
+  authDomain: 'wih-videocall-service.firebaseapp.com',
+  projectId: 'wih-videocall-service',
+  storageBucket: 'wih-videocall-service.firebasestorage.app',
+  messagingSenderId: '1016242551603',
+  appId: '1:1016242551603:web:d416e400ae8b18db8b5c46',
 };
+
 
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
