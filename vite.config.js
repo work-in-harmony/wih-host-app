@@ -16,9 +16,9 @@ export default defineConfig({
         "./UserCard": "./src/components/UserCard.jsx"
       },
       remotes: {
-        AuthApp: "http://localhost:5001/assets/AuthApp.js",
-        SubApp: "http://localhost:5002/assets/SubApp.js",
-        HomeApp: "http://localhost:5003/assets/HomeApp.js",
+        AuthApp: "https://wih-auth-app.vercel.app/assets/AuthApp.js",
+        SubApp: "https://wih-subsription-app.vercel.app/assets/SubApp.js",
+        HomeApp: "https://wih-home-app.vercel.app/assets/HomeApp.js",
       },
       shared: {
         react: { singleton: true, eager: true },
