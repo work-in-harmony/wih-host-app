@@ -1,5 +1,5 @@
-const API_BASE_URL = "http://20.239.224.236:8080";
-const WS_BASE_URL = "http://20.239.224.236:8050";
+const API_BASE_URL = "https://20.239.224.236:8080";
+const WS_BASE_URL = "https://20.239.224.236:8050";
 
 export const API_URLS = {
   authTest: `${API_BASE_URL}/auth/auth/jwt/test`,
