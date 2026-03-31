@@ -1,5 +1,5 @@
-const API_BASE_URL = "https://api.zonion.fun";
-const WS_BASE_URL = "https://proj.zonion.fun";
+const API_BASE_URL = "https://api.workinharmony.fun";
+const WS_BASE_URL = "https://proj.workinharmony.fun";
 
 export const API_URLS = {
   authTest: `${API_BASE_URL}/auth/auth/jwt/test`,
